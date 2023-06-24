@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <style>
+        fieldset {
+            background-color: slategrey;
+        }
+        .sign{background-color: green;}
+        .submit{background-color: green;}
+    </style>
+</head>
+<body>
+   <h2>student register form</h2>
+   <fieldset>
+    <legend style="font-size: larger;">sign in</legend>
+    <span>username</span><br/>
+    <input type="text" placeholder="enter username here.." maxlength="50"><br/>
+    <span>password:</span><br/>
+    <input type="password" placeholder="enter password here.." maxlength="12"><br/><br>
+    <input type="button" value="sign in" class="sign"/><hr/>
+    </fieldset><br><br>
+
+    <fieldset>
+    <legend style="font-size:larger;">student detail</legend>    
+    Name:<input type="text" placeholder="enter your name.." id="name"><br><br>
+    Father Name: <input type="text" placeholder="enter name.."><br><br>
+    date of birth: <input type="date"><br><br>
+    address: <input type="text" placeholder="enter your address.."><br><br>
+    city: <input type="text"><br><br>
+    Gender:  <input type="radio" id="G1" name="gender"/> 
+    <label for="G1">Male</label>&nbsp;&nbsp;
+    <input type="radio" id="G2" name="gender"/>
+    <span>Female</span><hr/><br><br>
+    <input type="file" multiple accept=".jpg,.jpeg,.png"/><hr/>
+
+    <input type="button" value="click here..."/><hr/>
+    <input type="submit"/ class="submit"><hr/>
+    <button>click here..</button><hr/>
+    </fieldset>
+</body>
+</html>
